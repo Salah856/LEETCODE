@@ -12,9 +12,7 @@ class Solution(object):
             if i == '1':
                 c+=1
                 
-                
-        
-        
+          
         return c
         
         
