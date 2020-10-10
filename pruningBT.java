@@ -5,6 +5,7 @@ class Solution {
         return containsOne(root) ? root : null;
     }
 
+
     public boolean containsOne(TreeNode node) {
         
         if (node == null) return false;
