@@ -14,6 +14,7 @@ class MinStack {
             minVals.pop();
         }
         
+        
         stack.pop();
     }
     
