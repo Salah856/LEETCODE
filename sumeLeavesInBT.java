@@ -12,6 +12,7 @@ class Solution {
                 if (root.right != null)
                     getPaths(root.right, new StringBuilder(currentPath));
             }
+
         }
     }
     public static int sumRootToLeaf(TreeNode root) {
