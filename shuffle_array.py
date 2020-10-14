@@ -11,4 +11,7 @@ class Solution:
         
 
     def shuffle(self) -> List[int]:
-        return random.sample(self.origin, len(self.origin))
+        return random.sample(self.origin, len(self.origin)) 
+        
+        
+        
