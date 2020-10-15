@@ -12,6 +12,7 @@ class Solution {
         for (String word : banned)
             bannedWords.add(word);
 
+
         Map<String, Integer> wordCount = new HashMap();
         // 3). count the appearance of each word, excluding the banned words
         for (String word : words) {
