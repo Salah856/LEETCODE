@@ -8,3 +8,6 @@ class Solution(object):
                 j = len(s) - 1 - i
                 return is_pali_range(i+1, j) or is_pali_range(i, j-1)
         return True
+        
+        
+        
