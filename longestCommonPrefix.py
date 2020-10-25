@@ -13,6 +13,5 @@ class Solution(object):
             else:
                 break
                 
-                
         return "".join(prefix)
         
