@@ -8,6 +8,7 @@ class Solution
         for(int i=0;i<Sarr.length;i++)
         {
             if(Sarr[i]!='#')
+                
             {
                 stack.push(Sarr[i]);
             }
