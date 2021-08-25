@@ -19,12 +19,12 @@
         node[self.endSymbol] = True
 
     # O(m) time | O(1) space
-#     def contains(self, string):
-#         node = self.root
-#         for letter in string:
-#             if letter not in node:
-#                 return False
-#             node = node[letter]
-#         return self.endSymbol in node
+    def contains(self, string):
+        node = self.root
+        for letter in string:
+            if letter not in node:
+                return False
+            node = node[letter]
+        return self.endSymbol in node
 
     
