@@ -1,3 +1,4 @@
+
 class Solution(object):
     
     def isToeplitzMatrix(self, matrix):
