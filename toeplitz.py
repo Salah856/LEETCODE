@@ -6,3 +6,5 @@ class Solution(object):
                    for r, row in enumerate(matrix)
                    for c, val in enumerate(row))
     
+
+    
