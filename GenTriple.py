@@ -1,3 +1,4 @@
+
 def GenTriple(n):
     n_squared = n ** 2
     squares = set([ x ** 2 for x in range(1, n + 1)])
