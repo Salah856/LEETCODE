@@ -1,8 +1,5 @@
 
 
-# Average: O(n^2) time | O(n^2) space
-# Worst: O(n^3) time | O(n^2) space
-
 def fourNumberSum(array, targetSum):
     allPairSums = {}
     quadruplets = []
