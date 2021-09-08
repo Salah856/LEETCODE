@@ -1,5 +1,7 @@
+
 class Solution{
-public List<List<Integer>> threeSum(int[] nums) {
+
+        public List<List<Integer>> threeSum(int[] nums) {
         List list = new ArrayList();
         if(nums.length < 3){
             return list;
