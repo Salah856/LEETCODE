@@ -1,3 +1,4 @@
+
 class Solution(object):
     def oddEvenJumps(self, A):
         N = len(A)
