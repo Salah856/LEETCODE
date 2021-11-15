@@ -2,6 +2,8 @@ from sortedcontainers import SortedList
 from string import digits
 from bisect import bisect
 
+
+
 class Solution:
     def minInteger(self, num,  k):
         
